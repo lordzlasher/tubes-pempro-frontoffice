@@ -1,0 +1,10 @@
+c:\users\user\documents\visual studio 2010\Projects\Front Office\Front Office\bin\Debug\Front Office.exe
+c:\users\user\documents\visual studio 2010\Projects\Front Office\Front Office\bin\Debug\Front Office.pdb
+c:\users\user\documents\visual studio 2010\Projects\Front Office\Front Office\bin\Debug\Front Office.xml
+c:\users\user\documents\visual studio 2010\Projects\Front Office\Front Office\obj\x86\Debug\Front_Office.Login.resources
+c:\users\user\documents\visual studio 2010\Projects\Front Office\Front Office\obj\x86\Debug\Front_Office.MainMenu.resources
+c:\users\user\documents\visual studio 2010\Projects\Front Office\Front Office\obj\x86\Debug\Front_Office.Resources.resources
+c:\users\user\documents\visual studio 2010\Projects\Front Office\Front Office\obj\x86\Debug\Front Office.vbproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2010\Projects\Front Office\Front Office\obj\x86\Debug\Front Office.exe
+c:\users\user\documents\visual studio 2010\Projects\Front Office\Front Office\obj\x86\Debug\Front Office.xml
+c:\users\user\documents\visual studio 2010\Projects\Front Office\Front Office\obj\x86\Debug\Front Office.pdb
