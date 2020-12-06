@@ -92,9 +92,8 @@ int tentang(){
  printf("================================================\n\n");
  printf(" Aplikasi Reservasi Kamar Hotel \n\n");
  printf(" Dibuat Oleh : \n");
- printf(" Irma Rismayanti \n");
- printf(" 49014091 \n");
- printf(" TKJMD Batch 9 \n");
+ printf(" Kelompok 15\n");
+ printf(" Dengan Nim:(2005551063),(2005551040),(1404505040)\n");
  printf("================================================\n\n");
  printf("1. Menu Utama\n");
  printf("2. Keluar\n");
@@ -132,7 +131,6 @@ int login(){
 
  printf("================================================\n");
  printf(" Selamat Datang \n");
- printf(" Hotel Amaarosa \n");
  printf("================================================\n\n");
 
  printf("Masukkan Username : ");
@@ -157,7 +155,6 @@ int home(){
 
  printf("================================================\n");
  printf(" Selamat Datang \n");
- printf(" Hotel Amaarosa \n");
  printf("================================================\n\n");
  printf("Menu : \n");
  printf("1. Beranda\n");
