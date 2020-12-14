@@ -190,14 +190,19 @@ switch (menu){
 
 int daftar(){
 int menu;
+int harga1=100000;
+int harga2=500000;
+char jeniskamar[10]="Standard";
+char jeniskamar2[10]="Luxury";
  printf("================================================\n");
  printf(" Daftar Kamar \n");
  printf("================================================\n\n");
- printf("Kamar 101\n");
- printf("Kamar 102\n");
- printf("Kamar 103\n");
- printf("Kamar 104\n");
- printf("Kamar 105\n");
+ printf("Nomer Kamar | Jenis Kamar | Harga\n");
+ printf("Kamar 101   | %s    | Rp.%d \n",jeniskamar, harga1);
+ printf("Kamar 102   | %s    | Rp.%d \n",jeniskamar, harga1);
+ printf("Kamar 103   | %s    | Rp.%d \n",jeniskamar, harga1);
+ printf("Kamar 104   | %s      | Rp.%d \n",jeniskamar2, harga2);
+ printf("Kamar 105   | %s      | Rp.%d \n\n",jeniskamar2, harga2);
  printf("================================================\n\n");
  printf("1. Menu Utama\n");
  printf("2. Keluar\n");
