@@ -1,0 +1,25 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char *argv[]);"
+SourceLocation="d:\LabWindows PRoject\Front Office 0.1.c:48:5"
+
+[panelCB]
+Class="Function"
+Prototype="int panelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\LabWindows PRoject\Front Office 0.1.c:69:17"
+
+[BtnLogin]
+Class="Function"
+Prototype="int BtnLogin(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\LabWindows PRoject\Front Office 0.1.c:81:17"
+
+[PANEL2]
+Class="Function"
+Prototype="int PANEL2(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\LabWindows PRoject\Front Office 0.1.c:119:17"
+
+[cancel]
+Class="Function"
+Prototype="int cancel(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\LabWindows PRoject\Front Office 0.1.c:137:17"
+
