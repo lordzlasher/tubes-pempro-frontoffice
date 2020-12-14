@@ -10,6 +10,8 @@ int login();
 int loginAll();
 int tentang();
 int keluar();
+int daftar();
+int pemesanan();
 
 //=============================================================================
 // MAIN
@@ -136,7 +138,7 @@ int login(){
  printf("Masukkan Username : ");
  scanf("%s", &user);
  printf("Masukkan Password : ");
- scanf("%d", &pass);
+ scanf("%s", &pass);
  system("cls");
 
  if (strcmp(user, "admin")==0 && (pass, "admin")){ //membandingkan string user dgn username dan variabel pass dgn password
@@ -196,7 +198,24 @@ int menu;
  printf("Kamar 103\n");
  printf("Kamar 104\n");
  printf("Kamar 105\n");
- 
+ printf("================================================\n\n");
+ printf("1. Menu Utama\n");
+ printf("2. Keluar\n");
+ printf("Masukkan nomor menu pilihan anda : ");
+ scanf("%d", &menu);
+ system("cls");
+
+ switch (menu){
+ case 1:
+ home();
+ break;
+ case 2:
+ keluar();
+ break;
+ default:
+ printf("Nomor menu yang anda masukkan tidak ada");
+ break;
+ }
  return 0;
 }
 
