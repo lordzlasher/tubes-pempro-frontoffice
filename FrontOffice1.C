@@ -162,7 +162,57 @@ int home(){
  printf("3. Pemesanan\n");
  printf("4. Tentang\n");
  printf("5. Keluar\n");
+ printf("Masukkan menu pilihan anda : ");
+ scanf("%d", &menu);
+ system("cls");
 
+switch (menu){
+ case 1:
+ depan(); 
+ break;
+ case 2:
+ daftar(); 
+ break;
+ case 3:
+ pemesanan();
+ break; 
+ case 4:
+ tentang();
+ break;
+ case 5:
+ keluar();
+ break;
+ }
+ return 0;
+}
+
+int daftar(){
+int menu;
+ printf("================================================\n");
+ printf(" Daftar Kamar \n");
+ printf("================================================\n\n");
+ printf("Kamar 101\n");
+ printf("Kamar 102\n");
+ printf("Kamar 103\n");
+ printf("Kamar 104\n");
+ printf("Kamar 105\n");
+ 
+ return 0;
+}
+
+int pemesanan(){
+int menu, nokamar, periode;
+char jeniskamar[20];
+ printf("================================================\n");
+ printf(" Pemesanan Kamar \n");
+ printf("================================================\n\n");
+ printf("Masukan Nomer Kamar yang Dipesan	:");
+ scanf("%d", &nokamar);
+ printf("Jenis Kamar yang Dipesan	:");
+ scanf("%s", &jeniskamar);
+ printf("Berapa lama menginap	:");
+ scanf("%d", &periode);
+ 
  return 0;
 }
   
