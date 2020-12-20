@@ -1,0 +1,90 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char *argv[]);"
+SourceLocation="d:\#LAB WINDOWS PROJECT\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:58:5"
+
+[InputComboValues]
+Class="Function"
+Prototype="void InputComboValues(int panel, int control);"
+SourceLocation="d:\#LAB WINDOWS PROJECT\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:87:6"
+
+[panelCB]
+Class="Function"
+Prototype="int panelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\#LAB WINDOWS PROJECT\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:100:17"
+
+[PANEL2]
+Class="Function"
+Prototype="int PANEL2(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\#LAB WINDOWS PROJECT\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:108:17"
+
+[PanelDK]
+Class="Function"
+Prototype="int PanelDK(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\#LAB WINDOWS PROJECT\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:116:17"
+
+[PanelRs]
+Class="Function"
+Prototype="int PanelRs(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\#LAB WINDOWS PROJECT\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:124:17"
+
+[PanelPb]
+Class="Function"
+Prototype="int PanelPb(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\#LAB WINDOWS PROJECT\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:132:17"
+
+[BtnLogin]
+Class="Function"
+Prototype="int BtnLogin(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\#LAB WINDOWS PROJECT\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:142:17"
+
+[cancel]
+Class="Function"
+Prototype="int cancel(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\#LAB WINDOWS PROJECT\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:177:17"
+
+[BtnKeluar]
+Class="Function"
+Prototype="int BtnKeluar(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\#LAB WINDOWS PROJECT\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:190:17"
+
+[picture]
+Class="Function"
+Prototype="int picture(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\#LAB WINDOWS PROJECT\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:205:17"
+
+[picture1]
+Class="Function"
+Prototype="int picture1(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\#LAB WINDOWS PROJECT\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:212:17"
+
+[picture2]
+Class="Function"
+Prototype="int picture2(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\#LAB WINDOWS PROJECT\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:221:17"
+
+[picture3]
+Class="Function"
+Prototype="int picture3(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\#LAB WINDOWS PROJECT\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:228:17"
+
+[BtnDatakamar]
+Class="Function"
+Prototype="int BtnDatakamar(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\#LAB WINDOWS PROJECT\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:238:17"
+
+[BtnReservasi]
+Class="Function"
+Prototype="int BtnReservasi(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\#LAB WINDOWS PROJECT\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:253:17"
+
+[BtnPembayaran]
+Class="Function"
+Prototype="int BtnPembayaran(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\#LAB WINDOWS PROJECT\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:266:17"
+
+[combo]
+Class="Function"
+Prototype="int combo(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\#LAB WINDOWS PROJECT\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:279:17"
+
