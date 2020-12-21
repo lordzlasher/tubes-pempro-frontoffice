@@ -43,7 +43,7 @@
 
 static int panelHandle = 0, panelHandle_2=0, panelHandle_3 = 0, panelHandle_4 = 0, panelHandle_5 = 0;
 void InputComboValues (int panel, int control);
-
+int a=6;
 //==============================================================================
 // Static functions
 
@@ -202,17 +202,16 @@ int CVICALLBACK BtnKeluar (int panel, int control, int event,
 
 //==============================================================================
 //Fungsi Untuk Menampilkann Gambar
+
 int CVICALLBACK picture (int panel, int control, int event,
 						 void *callbackData, int eventData1, int eventData2)
 {
-	DisplayImageFile (panelHandle, PANEL_PICTURE,"d:\\#LAB WINDOWS PROJECT\\Tugas FrontOffice_LabWindows 0.3\\hotel-di-bali-ilustrasi-_150707154203-669.jpg");
 	return 0;
 }
 
 int CVICALLBACK picture1 (int panel, int control, int event,
 						  void *callbackData, int eventData1, int eventData2)
 {
-	DisplayImageFile (panelHandle_2, PANEL_2_PICTURE, "d:\\#LAB WINDOWS PROJECT\\Tugas FrontOffice_LabWindows 0.3\\penginapan dan hotel di nias.jpg");
 	return 0;
 }
 
@@ -221,14 +220,12 @@ int CVICALLBACK picture1 (int panel, int control, int event,
 int CVICALLBACK picture2 (int panel, int control, int event,
 						  void *callbackData, int eventData1, int eventData2)
 {
-	DisplayImageFile (panelHandle_2, PANEL_2_PICTURE_2, "d:\\#LAB WINDOWS PROJECT\\Tugas FrontOffice_LabWindows 0.3\\bintang-bali-resort.jpg");
 	return 0;
 }
 
 int CVICALLBACK picture3 (int panel, int control, int event,
 						  void *callbackData, int eventData1, int eventData2)
 {
-	DisplayImageFile (panelHandle_2, PANEL_2_PICTURE_3, "d:\\#LAB WINDOWS PROJECT\\Tugas FrontOffice_LabWindows 0.3\\download.jpg");
 	return 0;
 }
 
@@ -301,6 +298,109 @@ int CVICALLBACK combo (int panel, int control, int event,
 				InsertTextBoxLine (panelHandle_4, PANEL_4_TEXTBOX_3, 0, "world");
 			}
 			free(value);
+			break;
+	}
+	return 0;
+}
+
+
+//==============================================================================
+//Fungsi Tombol Pada Menu Daftar Kamar
+
+int CVICALLBACK NoKamar (int panel, int control, int event,
+						 void *callbackData, int eventData1, int eventData2)
+{
+	switch (event)
+	{
+		case EVENT_COMMIT:
+
+			break;
+	}
+	return 0;
+}
+
+int CVICALLBACK JenisKamar (int panel, int control, int event,
+							void *callbackData, int eventData1, int eventData2)
+{
+	switch (event)
+	{
+		case EVENT_COMMIT:
+
+			break;
+	}
+	return 0;
+}
+
+int CVICALLBACK Fasilitas (int panel, int control, int event,
+						   void *callbackData, int eventData1, int eventData2)
+{
+	switch (event)
+	{
+		case EVENT_COMMIT:
+
+			break;
+	}
+	return 0;
+}
+
+int CVICALLBACK TarifKamar (int panel, int control, int event,
+							void *callbackData, int eventData1, int eventData2)
+{
+	switch (event)
+	{
+		case EVENT_COMMIT:
+
+			break;
+	}
+	return 0;
+}
+
+int CVICALLBACK BTNTambah (int panel, int control, int event,
+void *callbackData, int eventData1, int eventData2)
+{
+char NoKamar[5], JenisKamar[10], Fasilitas[100], TarifKamar[20];
+switch (event)
+{
+case EVENT_COMMIT:
+	GetCtrlVal (panelHandle_3, PANEL_3_STRING, NoKamar);
+	SetTableCellVal (panelHandle_3, PANEL_3_TABLE, MakePoint(1,a), NoKamar);
+	
+	GetCtrlVal (panelHandle_3, PANEL_3_STRING_2, JenisKamar);
+	SetTableCellVal (panelHandle_3, PANEL_3_TABLE, MakePoint(2,a), JenisKamar);
+	
+	GetCtrlVal (panelHandle_3, PANEL_3_STRING_3, Fasilitas);
+	SetTableCellVal (panelHandle_3, PANEL_3_TABLE, MakePoint(3,a), Fasilitas);
+	
+	GetCtrlVal (panelHandle_3, PANEL_3_STRING_4, TarifKamar);
+	SetTableCellVal (panelHandle_3, PANEL_3_TABLE, MakePoint(4,a), TarifKamar);
+	++a;
+	MessagePopup ("Daftar Kamar", "Data berhasil dimasukan!");
+	
+break;
+}
+return 0;
+}
+
+int CVICALLBACK PANEL_TABLE (int panel, int control, int event,
+							 void *callbackData, int eventData1, int eventData2)
+{
+	switch (event)
+	{
+		case EVENT_COMMIT:
+
+			break;
+	}
+	return 0;
+}
+
+int CVICALLBACK BTNBack (int panel, int control, int event,
+						 void *callbackData, int eventData1, int eventData2)
+{
+	switch (event)
+	{
+		case EVENT_COMMIT:
+			DisplayPanel (panelHandle_2);
+			QuitUserInterface (0);
 			break;
 	}
 	return 0;

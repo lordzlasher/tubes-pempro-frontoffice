@@ -27,8 +27,8 @@
 #define  PANEL_2_COMMANDBUTTON_3          3       /* control type: command, callback function: BtnPembayaran */
 #define  PANEL_2_COMMANDBUTTON_2          4       /* control type: command, callback function: BtnReservasi */
 #define  PANEL_2_COMMANDBUTTON            5       /* control type: command, callback function: BtnDatakamar */
-#define  PANEL_2_PICTURE                  6       /* control type: picture, callback function: picture1 */
-#define  PANEL_2_PICTURE_2                7       /* control type: picture, callback function: picture2 */
+#define  PANEL_2_PICTURE_2                6       /* control type: picture, callback function: picture2 */
+#define  PANEL_2_PICTURE                  7       /* control type: picture, callback function: picture1 */
 #define  PANEL_2_PICTURE_3                8       /* control type: picture, callback function: picture3 */
 
 
