@@ -1,0 +1,145 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char *argv[]);"
+SourceLocation="d:\DOWNLOAD\RAR File\tubes-pempro-frontoffice-main\tubes-pempro-frontoffice-main\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:61:5"
+
+[InputComboValues]
+Class="Function"
+Prototype="void InputComboValues(int panel, int control);"
+SourceLocation="d:\DOWNLOAD\RAR File\tubes-pempro-frontoffice-main\tubes-pempro-frontoffice-main\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:90:6"
+
+[panelCB]
+Class="Function"
+Prototype="int panelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\DOWNLOAD\RAR File\tubes-pempro-frontoffice-main\tubes-pempro-frontoffice-main\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:103:17"
+
+[PANEL2]
+Class="Function"
+Prototype="int PANEL2(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\DOWNLOAD\RAR File\tubes-pempro-frontoffice-main\tubes-pempro-frontoffice-main\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:111:17"
+
+[PanelDK]
+Class="Function"
+Prototype="int PanelDK(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\DOWNLOAD\RAR File\tubes-pempro-frontoffice-main\tubes-pempro-frontoffice-main\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:119:17"
+
+[PanelRs]
+Class="Function"
+Prototype="int PanelRs(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\DOWNLOAD\RAR File\tubes-pempro-frontoffice-main\tubes-pempro-frontoffice-main\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:127:17"
+
+[PanelPb]
+Class="Function"
+Prototype="int PanelPb(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\DOWNLOAD\RAR File\tubes-pempro-frontoffice-main\tubes-pempro-frontoffice-main\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:135:17"
+
+[BtnLogin]
+Class="Function"
+Prototype="int BtnLogin(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\DOWNLOAD\RAR File\tubes-pempro-frontoffice-main\tubes-pempro-frontoffice-main\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:145:17"
+
+[cancel]
+Class="Function"
+Prototype="int cancel(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\DOWNLOAD\RAR File\tubes-pempro-frontoffice-main\tubes-pempro-frontoffice-main\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:180:17"
+
+[BtnKeluar]
+Class="Function"
+Prototype="int BtnKeluar(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\DOWNLOAD\RAR File\tubes-pempro-frontoffice-main\tubes-pempro-frontoffice-main\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:193:17"
+
+[picture]
+Class="Function"
+Prototype="int picture(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\DOWNLOAD\RAR File\tubes-pempro-frontoffice-main\tubes-pempro-frontoffice-main\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:209:17"
+
+[picture1]
+Class="Function"
+Prototype="int picture1(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\DOWNLOAD\RAR File\tubes-pempro-frontoffice-main\tubes-pempro-frontoffice-main\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:215:17"
+
+[picture2]
+Class="Function"
+Prototype="int picture2(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\DOWNLOAD\RAR File\tubes-pempro-frontoffice-main\tubes-pempro-frontoffice-main\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:223:17"
+
+[picture3]
+Class="Function"
+Prototype="int picture3(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\DOWNLOAD\RAR File\tubes-pempro-frontoffice-main\tubes-pempro-frontoffice-main\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:229:17"
+
+[picture_reservasi]
+Class="Function"
+Prototype="int picture_reservasi(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\DOWNLOAD\RAR File\tubes-pempro-frontoffice-main\tubes-pempro-frontoffice-main\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:235:17"
+
+[BtnDatakamar]
+Class="Function"
+Prototype="int BtnDatakamar(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\DOWNLOAD\RAR File\tubes-pempro-frontoffice-main\tubes-pempro-frontoffice-main\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:244:17"
+
+[BtnReservasi]
+Class="Function"
+Prototype="int BtnReservasi(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\DOWNLOAD\RAR File\tubes-pempro-frontoffice-main\tubes-pempro-frontoffice-main\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:259:17"
+
+[BtnPembayaran]
+Class="Function"
+Prototype="int BtnPembayaran(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\DOWNLOAD\RAR File\tubes-pempro-frontoffice-main\tubes-pempro-frontoffice-main\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:272:17"
+
+[combo]
+Class="Function"
+Prototype="int combo(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\DOWNLOAD\RAR File\tubes-pempro-frontoffice-main\tubes-pempro-frontoffice-main\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:286:17"
+
+[NoKamar]
+Class="Function"
+Prototype="int NoKamar(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\DOWNLOAD\RAR File\tubes-pempro-frontoffice-main\tubes-pempro-frontoffice-main\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:322:17"
+
+[JenisKamar]
+Class="Function"
+Prototype="int JenisKamar(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\DOWNLOAD\RAR File\tubes-pempro-frontoffice-main\tubes-pempro-frontoffice-main\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:334:17"
+
+[Fasilitas]
+Class="Function"
+Prototype="int Fasilitas(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\DOWNLOAD\RAR File\tubes-pempro-frontoffice-main\tubes-pempro-frontoffice-main\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:346:17"
+
+[TarifKamar]
+Class="Function"
+Prototype="int TarifKamar(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\DOWNLOAD\RAR File\tubes-pempro-frontoffice-main\tubes-pempro-frontoffice-main\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:358:17"
+
+[BTNTambah]
+Class="Function"
+Prototype="int BTNTambah(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\DOWNLOAD\RAR File\tubes-pempro-frontoffice-main\tubes-pempro-frontoffice-main\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:370:17"
+
+[PANEL_TABLE]
+Class="Function"
+Prototype="int PANEL_TABLE(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\DOWNLOAD\RAR File\tubes-pempro-frontoffice-main\tubes-pempro-frontoffice-main\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:397:17"
+
+[BTNBack]
+Class="Function"
+Prototype="int BTNBack(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\DOWNLOAD\RAR File\tubes-pempro-frontoffice-main\tubes-pempro-frontoffice-main\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:409:17"
+
+[buton]
+Class="Function"
+Prototype="int buton(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\DOWNLOAD\RAR File\tubes-pempro-frontoffice-main\tubes-pempro-frontoffice-main\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:426:17"
+
+[BtnHitung]
+Class="Function"
+Prototype="int BtnHitung(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\DOWNLOAD\RAR File\tubes-pempro-frontoffice-main\tubes-pempro-frontoffice-main\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:438:17"
+
+[BtnAdd]
+Class="Function"
+Prototype="int BtnAdd(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\DOWNLOAD\RAR File\tubes-pempro-frontoffice-main\tubes-pempro-frontoffice-main\Tugas FrontOffice_LabWindows 0.3\Front Office 0.1.c:453:17"
+
