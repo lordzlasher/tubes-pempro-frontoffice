@@ -1,6 +1,7 @@
 [Workspace Header]
 Version = 2000
-Pathname = "/d/#LAB WINDOWS PROJECT/Tugas FrontOffice_LabWindows 0.4/Front Office 0.1.cws"
+Pathname Line0001 = "/c/Users/LordZlasher/Documents/GitHub/tubes-pempro-frontoffice/Tugas FrontOffice"
+Pathname Line0002 = "_LabWindows 0.4/Front Office 0.1.cws"
 CVI Dir = "/c/program files (x86)/national instruments/cvi2020"
 CVI Shared Dir = "/C/Program Files (x86)/National Instruments/Shared/CVI"
 CVI Pub Local Dir = "/C/ProgramData/National Instruments/CVI2020"
@@ -12,11 +13,11 @@ VXIplug&play Framework 64-bit Dir = "/C/Program Files/IVI Foundation/VISA/win64"
 Number of Projects = 1
 Active Project = 1
 Project 0001 = "Front Office 0.1.prj"
-Drag Bar Left = 273
-Window Top = 49
+Drag Bar Left = 226
+Window Top = 44
 Window Left = 582
-Window Bottom = 733
-Window Right = 1357
+Window Bottom = 728
+Window Right = 1348
 Maximized = True
 Maximized Children = True
 Max32 Number Of Errors = 20
@@ -32,7 +33,7 @@ Break At First Statement = False
 Sort Type = "File Name"
 Number of Opened Files = 5
 Window Confinement Region Enabled = True
-MainColumnWidth = 256
+MainColumnWidth = 209
 FileDateColumnWidth = 70
 FileSizeColumnWidth = 70
 
@@ -51,66 +52,80 @@ Path Line0002 = "p"
 File Type = "Function Panel"
 Disk Date = 3679628492
 In Projects = "1,"
+Window Top = 95
+Window Left = 42
+Window Height = 400
+Window Width = 400
 
 [File 0002]
-Path = "/d/#LAB WINDOWS PROJECT/Tugas FrontOffice_LabWindows 0.4/Front Office 0.1.c"
+Path Line0001 = "/c/Users/LordZlasher/Documents/GitHub/tubes-pempro-frontoffice/Tugas FrontOffice"
+Path Line0002 = "_LabWindows 0.4/Front Office 0.1.c"
 File Type = "CSource"
-Disk Date = 3691666216
+Disk Date = 3691815532
 In Projects = "1,"
-Source Window State = "1,510,510,510,18,18,18,0,0,0,0,0,0,0,0,0,487,0,510,18,400,600,1,0,"
+Source Window State = "1,17,17,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,0,400,600,1,0,"
 Window Top = 31
 Window Z-Order = 1
 
 [File 0003]
-Path = "/d/#LAB WINDOWS PROJECT/Tugas FrontOffice_LabWindows 0.4/Front Office 0.1.uir"
+Path Line0001 = "/c/Users/LordZlasher/Documents/GitHub/tubes-pempro-frontoffice/Tugas FrontOffice"
+Path Line0002 = "_LabWindows 0.4/Front Office 0.1.uir"
 File Type = "User Interface Resource"
-Disk Date = 3691645403
+Disk Date = 3691723390
 In Projects = "1,"
 Window Top = 33
 Window Left = 10
 Window Height = 401
 Window Width = 602
-Window Z-Order = 4
+Window Z-Order = 5
 
 [File 0004]
-Path = "/d/#LAB WINDOWS PROJECT/Tugas FrontOffice_LabWindows 0.4/Panel Data Kamar.uir"
+Path Line0001 = "/c/Users/LordZlasher/Documents/GitHub/tubes-pempro-frontoffice/Tugas FrontOffice"
+Path Line0002 = "_LabWindows 0.4/Panel Data Kamar.uir"
 File Type = "User Interface Resource"
-Disk Date = 3691487096
+Disk Date = 3691815638
 In Projects = "1,"
 Window Top = 33
 Window Left = 10
 Window Height = 401
 Window Width = 462
-Window Z-Order = 5
+Window Z-Order = 2
 
 [File 0005]
-Path = "/d/#LAB WINDOWS PROJECT/Tugas FrontOffice_LabWindows 0.4/Panel Pembayaran.uir"
+Path Line0001 = "/c/Users/LordZlasher/Documents/GitHub/tubes-pempro-frontoffice/Tugas FrontOffice"
+Path Line0002 = "_LabWindows 0.4/Panel Pembayaran.uir"
 File Type = "User Interface Resource"
-Disk Date = 3691551338
+Disk Date = 3691723390
 In Projects = "1,"
 Window Top = 219
 Window Left = 106
 Window Height = 401
 Window Width = 602
-Window Z-Order = 3
+Window Z-Order = 4
 
 [File 0006]
-Path = "/d/#LAB WINDOWS PROJECT/Tugas FrontOffice_LabWindows 0.4/Panel Reservasi.uir"
+Path Line0001 = "/c/Users/LordZlasher/Documents/GitHub/tubes-pempro-frontoffice/Tugas FrontOffice"
+Path Line0002 = "_LabWindows 0.4/Panel Reservasi.uir"
 File Type = "User Interface Resource"
-Disk Date = 3691661381
+Disk Date = 3691723390
 In Projects = "1,"
 Window Top = 126
 Window Left = 58
 Window Height = 401
 Window Width = 602
-Window Z-Order = 2
+Window Z-Order = 3
 
 [Tab Order]
-Tab 0001 = "/d/#LAB WINDOWS PROJECT/Tugas FrontOffice_LabWindows 0.4/Front Office 0.1.c"
-Tab 0002 = "/d/#LAB WINDOWS PROJECT/Tugas FrontOffice_LabWindows 0.4/Panel Data Kamar.uir"
-Tab 0003 = "/d/#LAB WINDOWS PROJECT/Tugas FrontOffice_LabWindows 0.4/Panel Reservasi.uir"
-Tab 0004 = "/d/#LAB WINDOWS PROJECT/Tugas FrontOffice_LabWindows 0.4/Front Office 0.1.uir"
-Tab 0005 = "/d/#LAB WINDOWS PROJECT/Tugas FrontOffice_LabWindows 0.4/Panel Pembayaran.uir"
+Tab 0001 Line0001 = "/c/Users/LordZlasher/Documents/GitHub/tubes-pempro-frontoffice/Tugas FrontOffice"
+Tab 0001 Line0002 = "_LabWindows 0.4/Panel Data Kamar.uir"
+Tab 0002 Line0001 = "/c/Users/LordZlasher/Documents/GitHub/tubes-pempro-frontoffice/Tugas FrontOffice"
+Tab 0002 Line0002 = "_LabWindows 0.4/Panel Reservasi.uir"
+Tab 0003 Line0001 = "/c/Users/LordZlasher/Documents/GitHub/tubes-pempro-frontoffice/Tugas FrontOffice"
+Tab 0003 Line0002 = "_LabWindows 0.4/Front Office 0.1.uir"
+Tab 0004 Line0001 = "/c/Users/LordZlasher/Documents/GitHub/tubes-pempro-frontoffice/Tugas FrontOffice"
+Tab 0004 Line0002 = "_LabWindows 0.4/Panel Pembayaran.uir"
+Tab 0005 Line0001 = "/c/Users/LordZlasher/Documents/GitHub/tubes-pempro-frontoffice/Tugas FrontOffice"
+Tab 0005 Line0002 = "_LabWindows 0.4/Front Office 0.1.c"
 
 [Default Build Config 0001 Debug]
 Generate Browse Info = True

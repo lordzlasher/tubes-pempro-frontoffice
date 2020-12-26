@@ -7,7 +7,7 @@
 // Title:		Front Office 
 // Purpose:		A short description of the application.
 //
-// Created on:	12/9/2020 at 5:24:17 PM by surya darma.
+// Created on:	12/9/2020 at 5:24:17 PM by surya darma & yoga pramana.
 // Copyright:	. All Rights Reserved.
 //
 //==============================================================================
@@ -15,7 +15,7 @@
 //==============================================================================
 // Include files
 
-#include "nivision.h"
+
 #include <ansi_c.h>
 #include <cvirte.h>
 #include <userint.h>
@@ -46,6 +46,7 @@ static int panelHandle = 0, panelHandle_2=0, panelHandle_3 = 0, panelHandle_4 = 
 void InputComboValues (int panel, int control);
 int n=1;
 int m=1;
+int a=6;
 
 //==============================================================================
 // Static functions
@@ -78,8 +79,11 @@ int main (int argc, char *argv[])
 	
 	Combo_NewComboBox (panelHandle_4, PANEL_4_COMBO);
 	InputComboValues (panelHandle_4, PANEL_4_COMBO);
+	Combo_NewComboBox (panelHandle_3, PANEL_3_COMBO_2);
+	InputComboValues (panelHandle_3, PANEL_3_COMBO_2);
 	RunUserInterface ();
 	Combo_DiscardComboBox (panelHandle_4, PANEL_4_COMBO);
+	Combo_DiscardComboBox (panelHandle_3, PANEL_3_COMBO_2);
 	DiscardPanel (panelHandle);
 	
 	return 0;
@@ -286,27 +290,15 @@ int CVICALLBACK BtnKeluar (int panel, int control, int event,
 	return 0;
 }
 
-//=========================PANEL DATA KAMAR===========================
+//=========================PANEL DATA KAMAR=============================
 //======================================================================
-//===================Fungsi Dalam Panel DATA KAMAR========================
-//============Dibuat Oleh Putu Yoga Pramana Putra (2005551040)=============
-//=======================================================================
-//====================================================================
+//===================Fungsi Dalam Panel DATA KAMAR======================
+//============Dibuat Oleh Putu Yoga Pramana Putra (2005551040)==========
+//======================================================================
+//======================================================================
 
 int CVICALLBACK NoKamar (int panel, int control, int event,
 						 void *callbackData, int eventData1, int eventData2)
-{
-	switch (event)
-	{
-		case EVENT_COMMIT:
-
-			break;
-	}
-	return 0;
-}
-
-int CVICALLBACK JenisKamar (int panel, int control, int event,
-							void *callbackData, int eventData1, int eventData2)
 {
 	switch (event)
 	{
@@ -344,7 +336,6 @@ int CVICALLBACK TarifKamar (int panel, int control, int event,
 int CVICALLBACK BTNTambah (int panel, int control, int event,
 void *callbackData, int eventData1, int eventData2)
 {
-int a=6;
 char NoKamar[5], JenisKamar[10], Fasilitas[100], TarifKamar[20];
 switch (event)
 {
@@ -352,7 +343,7 @@ case EVENT_COMMIT:
 	GetCtrlVal (panelHandle_3, PANEL_3_STRING, NoKamar);
 	SetTableCellVal (panelHandle_3, PANEL_3_TABLE, MakePoint(1,a), NoKamar);
 	
-	GetCtrlVal (panelHandle_3, PANEL_3_STRING_2, JenisKamar);
+	GetCtrlVal (panelHandle_3, PANEL_3_COMBO_2, JenisKamar);
 	SetTableCellVal (panelHandle_3, PANEL_3_TABLE, MakePoint(2,a), JenisKamar);
 	
 	GetCtrlVal (panelHandle_3, PANEL_3_STRING_3, Fasilitas);
@@ -360,6 +351,7 @@ case EVENT_COMMIT:
 	
 	GetCtrlVal (panelHandle_3, PANEL_3_STRING_4, TarifKamar);
 	SetTableCellVal (panelHandle_3, PANEL_3_TABLE, MakePoint(4,a), TarifKamar);
+	
 	++a;
 	MessagePopup ("Daftar Kamar", "Data berhasil dimasukan!");
 	
@@ -388,6 +380,44 @@ int CVICALLBACK BTNBack (int panel, int control, int event,
 		case EVENT_COMMIT:
 			DisplayPanel (panelHandle_2);
 			QuitUserInterface (0);
+			break;
+	}
+	return 0;
+}
+
+//=========================PANEL DATA KAMAR==============================
+//=======================================================================
+//=========Fungsi Membuat Drop Down List Pada Panel Data Kamar ==========
+//======Dibuat Oleh  Putu Yoga Pramana Putra(2005551040)=================
+//=======================================================================
+//=======================================================================
+
+
+
+int CVICALLBACK ComboJenisKamar (int panel, int control, int event,
+								 void *callbackData, int eventData1, int eventData2)
+{
+char *value;
+	int  length;
+	
+	switch (event)
+	{
+		case EVENT_COMMIT:
+			GetCtrlAttribute (panel, control, ATTR_STRING_TEXT_LENGTH, &length);
+			value = (char *)malloc(length+1);
+			StringUpperCase (value);
+			if (strcmp (value, "STANDAR") == 0)
+			{
+				SetCtrlVal (panelHandle_3, PANEL_3_STRING_3, "TV, AC, Lemari");
+				SetCtrlVal (panelHandle_3, PANEL_3_STRING_4, "Rp. 200000");
+				
+			}
+			else if (strcmp (value, "VIP") == 0)
+			{
+				SetCtrlVal (panelHandle_3, PANEL_3_STRING_3, "Double Bed, TV, AC, Lemari");
+				SetCtrlVal (panelHandle_3, PANEL_3_STRING_4, "Rp. 350000");
+			}
+			free(value);
 			break;
 	}
 	return 0;
@@ -512,5 +542,4 @@ int CVICALLBACK combo (int panel, int control, int event,
 	}
 	return 0;
 }
-
 
